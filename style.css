@@ -1,0 +1,99 @@
+body {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    background: lightcoral;
+}
+.container {
+    display: flex;
+    width: 80%;
+    height: 80vh;
+    max-width: 900px;
+}
+.left {
+    background: url('pexels-vlada-karpovich-4450407.jpg') no-repeat center center/cover;
+    flex: 1;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    color: lightseagreen;
+    text-align: center;
+}
+.left h1 {
+    margin-bottom: 10px;
+    font-size: 2.5rem;
+}
+.left p {
+    font-size: 1.2rem;
+}
+.right {
+    flex: 1;
+    background: grey;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    
+}
+.right h2 {
+    color: blue;
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 2rem;
+}
+.form {
+    margin-bottom: 20px;
+}
+.form label {
+    display: block;
+    margin-bottom: 5px;
+    color: #333;
+}
+.form input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+.form input:focus {
+    outline: none;
+    border-color: #007bff;
+}
+.login {
+    background: #007bff;
+    color: white;
+    padding: 10px;
+    width: 105%;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.login:hover {
+    background: #50da63;
+}
+.or{
+    text-align: center;
+}
+.social {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+.social img {
+    width: 50px;
+    height: 50px;
+}
+.register {
+    margin-top: 20px;
+    text-align: center;
+}
+.register a {
+    color: blue;
+    text-decoration: none;
+}
+.register a:hover {
+    text-decoration: underline;
+}
